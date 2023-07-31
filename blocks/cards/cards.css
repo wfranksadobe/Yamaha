@@ -278,3 +278,8 @@
 .carousel .cards-card-image img {
   max-height: 400px;
 }
+
+
+.carousel cards-card-body {
+  display: block;
+}
