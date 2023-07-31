@@ -274,3 +274,7 @@
   cursor: pointer;
   padding: 1.3rem;
 }
+
+.carousel .cards-card-image img {
+  max-height: 400px;
+}
