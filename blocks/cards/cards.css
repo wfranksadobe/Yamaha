@@ -233,8 +233,6 @@
 
 
 
-
-
 .carousel {
   background-color: #e8e8e5;
   overflow: hidden;
@@ -251,7 +249,7 @@
 }
 
 .carousel ul li {
-  display: inline-block;
+  /*display: inline-block;*/
   padding: 1rem;
   position: relative;
   text-align: center;
@@ -275,11 +273,17 @@
   padding: 1.3rem;
 }
 
+
 .carousel .cards-card-image img {
   max-height: 400px;
 }
 
-
 .carousel .cards-card-body {
-  display: block;
+  /*display: block; */
+  position: absolute;
+}
+
+.carousel li {
+  position: relative;
+  text-align: center;
 }
